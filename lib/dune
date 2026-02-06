@@ -1,0 +1,3 @@
+(library
+ (name corpus_intersector)
+ (modules tokenizer corpus file_io corpus_intersector))

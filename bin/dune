@@ -1,0 +1,4 @@
+(executable
+ (public_name corpus_intersector)
+ (name main)
+ (libraries corpus_intersector))

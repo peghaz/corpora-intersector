@@ -1,0 +1,8 @@
+the, a, an, this, that, these, those
+cat, dog, fox, wolf, bear, lion, tiger, giraffe, zebra, elephant
+quick, slow, lazy, happy, sad, bright, dark
+jumps, runs, walks, sleeps, eats, drinks, thinks, writes, reads
+over, under, beside, near, far, inside, outside
+tree, river, mountain, ocean, forest, desert, city, village, road
+hello, world, ocaml, dune, compiler, lexer, tokenizer, hashmap, set
+music, piano, violin, guitar, drums
