@@ -22,5 +22,6 @@ mountain
 desert
 village
 dune
+set
+thinks
 drums
-walks
