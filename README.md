@@ -128,8 +128,8 @@ opam install dune
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/CorpusIntersector.git
-cd CorpusIntersector
+git clone https://github.com/peghaz/corpora-intersector.git
+cd corpora-intersector
 
 # Build the project
 dune build
