@@ -28,20 +28,16 @@ let test_tokenizer () =
   assert (normalize "Hello" = "hello");
   assert (normalize "WORLD" = "world");
   
-  (* Test word char detection *)
-  assert (is_word_char 'a');
-  assert (is_word_char 'Z');
-  assert (is_word_char '\'');
-  assert (is_word_char '-');
-  assert (not (is_word_char ' '));
-  assert (not (is_word_char ','));
-  
   (* Test tokenize_line *)
   assert (tokenize_line "hello world" = ["hello"; "world"]);
   assert (tokenize_line "one,two,three" = ["one"; "two"; "three"]);
   assert (tokenize_line "  spaces  " = ["spaces"]);
   assert (tokenize_line "don't" = ["don't"]);
   assert (tokenize_line "well-known" = ["well-known"]);
+  
+  (* Test Unicode tokenization - Chinese *)
+  assert (tokenize_line "你好世界" = ["你好世界"]);
+  assert (tokenize_line "学习 编程" = ["学习"; "编程"]);
   
   print_endline "Tokenizer tests passed!"
 

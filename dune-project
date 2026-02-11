@@ -22,7 +22,9 @@
   "A fast OCaml tool that identifies words from a language corpus that never appear in a given text. Uses O(1) hash table lookups for efficient comparison. Useful for vocabulary analysis, language learning, and corpus linguistics research.")
  (depends
   (ocaml (>= 4.14))
-  dune)
+  dune
+  uutf
+  uucp)
  (tags
   (ocaml nlp corpus linguistics vocabulary text-analysis)))
 

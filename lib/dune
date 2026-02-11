@@ -1,3 +1,4 @@
 (library
  (name corpus_intersector)
+ (libraries uutf uucp)
  (modules tokenizer corpus file_io corpus_intersector))

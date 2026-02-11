@@ -13,6 +13,8 @@ bug-reports: "https://github.com/peghaz/corpora-intersector/issues"
 depends: [
   "ocaml" {>= "4.14"}
   "dune" {>= "3.21"}
+  "uutf"
+  "uucp"
   "odoc" {with-doc}
 ]
 build: [
